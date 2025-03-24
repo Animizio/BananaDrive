@@ -6,7 +6,6 @@ resolved: false
 severity: disrupted
 affected:
   - BananaDrive
-  - BananaDrive 2
 section: issue
 ---
 

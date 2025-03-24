@@ -145,10 +145,10 @@ params:
   categories:
     - name: BananaDrive
       description: Hier handelt es sich um unseren ersten Plex Server.
-      closed: true
+      closed: false
     - name: BananaDrive 2
       description: Hier handelt es sich um unseren zweiten Plex Server.
-      closed: true
+      closed: false
     - name: Nicht kategorisiert
       untitled: true
 

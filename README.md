@@ -1,33 +1,33 @@
-# cState Site v5.6.1b
+# cState Seite v5.6.1b
 
-This is the default cState status page website directory/folder.
+Dies ist das Standardverzeichnis/Ordner für die cState-Statusseite.
 
-* Example site repository link (you are here): https://github.com/cstate/example
-* Main cState source code repository: https://github.com/cstate/cstate
+* Link zum Beispiel-Site-Repository (Sie sind hier): https://github.com/cstate/example
+* Hauptrepository für den cState-Quellcode: https://github.com/cstate/cstate
 
-## Are you updating? Use these commands
+## Aktualisieren Sie? Verwenden Sie diese Befehle
 
-Download your site with all the directories. `git clone --recursive <your repo link goes here>`
+Laden Sie Ihre Seite mit allen Verzeichnissen herunter. `git clone --recursive <Ihr Repo-Link kommt hier>`
 
-Update the cState theme submodule. `git submodule foreach git pull origin master`
+Aktualisieren Sie das cState-Theme-Submodul. `git submodule foreach git pull origin master`
 
-In the parent directory, type `hugo serve`. Check to see if everything is working.
+Geben Sie im übergeordneten Verzeichnis `hugo serve` ein. Überprüfen Sie, ob alles funktioniert.
 
-Then do `git add -A; git commit -m "Update cState"; git push origin <branch, probably main or master>`. Your status page is now updated and uploaded.
+Führen Sie dann `git add -A; git commit -m "Update cState"; git push origin <Branch, wahrscheinlich main oder master>` aus. Ihre Statusseite ist jetzt aktualisiert und hochgeladen.
 
 
-## For maintainers (probably not for you)
+## Für Betreuer (wahrscheinlich nicht für Sie)
 
-Maintainers need to update both cstate/cstate and cstate/example for each new version.
+Betreuer müssen sowohl cstate/cstate als auch cstate/example für jede neue Version aktualisieren.
 
-Download this repo with all the directories. `git clone --recursive -b master https://github.com/cstate/example.git`
+Laden Sie dieses Repository mit allen Verzeichnissen herunter. `git clone --recursive -b master https://github.com/cstate/example.git`
 
-Add your changes from cstate/cstate's exampleSite folder.
+Fügen Sie Ihre Änderungen aus dem Ordner exampleSite von cstate/cstate hinzu.
 
-Update the cState theme submodule. `git submodule foreach git pull origin master`
+Aktualisieren Sie das cState-Theme-Submodul. `git submodule foreach git pull origin master`
 
-Then push `git add -A; git commit -m "Update cState vX.X.X"; git push origin master`.
+Dann pushen Sie `git add -A; git commit -m "Update cState vX.X.X"; git push origin master`.
 
-## License
+## Lizenz
 
 MIT © Mantas Vilčinskas

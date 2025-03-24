@@ -1,10 +1,10 @@
 ---
-title: Testing New cState Features
+title: Test neuer cState-Funktionen
 date: 2019-10-04 18:05:00
 informational: true
 section: issue
 ---
 
-There is a new feature in cState version 4 that lets you make what are called _informational_ posts. The main difference is that there will be no _Unresolved_ or _Resolved in under a minute_ text on the pages.
+Es gibt eine neue Funktion in cState Version 4, mit der Sie sogenannte _informative_ Beiträge erstellen können. Der Hauptunterschied besteht darin, dass auf den Seiten kein Text wie _Ungelöst_ oder _In unter einer Minute gelöst_ erscheint.
 
-This is essentially a page with a date and title that shows up in the incident history.
+Dies ist im Wesentlichen eine Seite mit einem Datum und Titel, die in der Vorfallhistorie angezeigt wird.

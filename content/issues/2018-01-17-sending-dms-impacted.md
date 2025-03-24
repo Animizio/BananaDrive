@@ -1,15 +1,17 @@
 ---
-title: Probleme beim Senden von Direktnachrichten
-date: 2017-12-17 16:24:00
-resolved: true
-resolvedWhen: 2017-12-17 16:58:00
+title: Probleme beim Online-Status des Plex-Servers
+date: 2025-03-24 11:23:00
+resolved: false
+resolvedWhen: 2025-03-24 11:23:00
 # Mögliche Schweregrade: down, disrupted, notice
 severity: disrupted
 affected:
-  - API
+  - Server
 section: issue
 ---
 
-*Update* - Dieser Vorfall wurde behoben.
+# *Update* - Dieser Vorfall wurde behoben.
 
-*Untersuchung* - Wir sind uns eines Problems bewusst, das das Senden von Direktnachrichten und das Anzeigen von Online-Freunden betrifft. Wir sind online und arbeiten an einer Lösung.
+# *Problem gefunden* - Das Problem konnte lokalisiert werden und es wird bereits an einer Lösung gearbeitet.
+
+*Untersuchung* - Wir sind uns eines Problems bewusst, das es vereinzelt Probleme mit dem Online-Status vom Plex-Server gibt. Das Problem konnte lokalisiert werden und es wird bereits an einer Lösung gearbeitet.

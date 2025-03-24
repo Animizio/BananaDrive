@@ -1,9 +1,9 @@
 ---
-title: Maintenance Announcement 
-date: 2024-02-24 10:35:00 
+title: Ankündigung 
+date: 2025-03-24 10:35:00 
 informational: true
 pin: true 
 section: issue
 ---
 
-We will shut down our network at midnight UTC on Feb 24. This does not affect the current status.
+Der Server wird zur Erhaltung der Stabilisierung und zur Installation von Updates immer täglich um 3:00 Uhr in der Nacht neugestartet.

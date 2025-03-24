@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: en
+languageCode: de
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -78,12 +78,12 @@ languageCode: en
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: de
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
 #
-# ❗ cState & Hugo don’t support '/' in
+# ❗ cState & Hugo don't support '/' in
 # production use. It will break RSS
 # feeds and breaks permalinks since
 # version 3. If you are just testing,
@@ -143,11 +143,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Nordküste
+      description: Die Hauptserver befinden sich hier.
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
+    - name: Leere Kategorie
+    - name: Nicht kategorisiert
       untitled: true
 
   # These are your systems. Change them to
@@ -159,19 +159,19 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
+      category: Nordküste
     - name: Backup Gateway
-      category: North Coast
+      category: Nordküste
     - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
+      description: Die Web-Benutzeroberfläche für die Anwendung.
+      category: Nicht kategorisiert
       link: https://example.com/
     - name: API
-      description: The guts of the application.
-      category: Uncategorized
+      description: Das Herzstück der Anwendung.
+      category: Nicht kategorisiert
     - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      description: Dieser Dienst ist für die Bereitstellung von Bildern, Audio und Video verantwortlich. Er ist abhängig von unserem CDN.
+      category: Nicht kategorisiert
 
   # What date format to use?
   #
@@ -182,8 +182,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM UTC
-  shortDateFormat: 15:04 UTC — Jan 2
+  dateFormat: "2. Januar 2006 um 15:04 Uhr UTC"
+  shortDateFormat: "15:04 UTC — 2. Jan"
 
   # Should relative time (x min ago) be used?
   #
@@ -250,7 +250,7 @@ params:
   # the RSS feed. To ensure no incidents are shown, you
   # should delete them after they are resolved. This option
   # overrides any other options that tailor your incident
-  # history’s look.
+  # history's look.
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
@@ -292,7 +292,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Wir überwachen kontinuierlich den Status unserer Dienste und sollte es zu Unterbrechungen kommen, wird hier eine Mitteilung veröffentlicht.
 
   # Tabs on homepage
   # Uncomment to enable.

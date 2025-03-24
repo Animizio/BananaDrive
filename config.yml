@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: BananaDrive Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: de
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://bananadrive.netlify.app
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Nordküste
-      description: Die Hauptserver befinden sich hier.
+    - name: BananaDrive
+      description: Hier handelt es sich um unseren ersten Plex Server.
       closed: true
-    - name: Leere Kategorie
+    - name: BananaDrive 2
+      description: Hier handelt es sich um unseren zweiten Plex Server.
+      closed: true
     - name: Nicht kategorisiert
       untitled: true
 
@@ -158,20 +160,14 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: Nordküste
-    - name: Backup Gateway
-      category: Nordküste
-    - name: Website
-      description: Die Web-Benutzeroberfläche für die Anwendung.
-      category: Nicht kategorisiert
-      link: https://example.com/
-    - name: API
-      description: Das Herzstück der Anwendung.
-      category: Nicht kategorisiert
-    - name: Media Proxy
-      description: Dieser Dienst ist für die Bereitstellung von Bildern, Audio und Video verantwortlich. Er ist abhängig von unserem CDN.
-      category: Nicht kategorisiert
+    - name: BananaDrive
+      category: BananaDrive
+   #- name: Backup Gateway
+   #  category: Nordküste
+    - name: BananaDrive 2
+   #  description: Die Web-Benutzeroberfläche für die Anwendung.
+      category: BananaDrive 2
+   #  link: https://example.com/
 
   # What date format to use?
   #
@@ -292,7 +288,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: Wir überwachen kontinuierlich den Status unserer Dienste und sollte es zu Unterbrechungen kommen, wird hier eine Mitteilung veröffentlicht.
+  description: Ich überwache kontinuierlich den Status unserer Server und sollte es zu Unterbrechungen kommen, wird hier eine Mitteilung veröffentlicht.
 
   # Tabs on homepage
   # Uncomment to enable.

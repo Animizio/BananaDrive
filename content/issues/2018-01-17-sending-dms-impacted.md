@@ -10,8 +10,4 @@ affected:
 section: issue
 ---
 
-# *Update* - Dieser Vorfall wurde behoben.
-
-# *Problem gefunden* - Das Problem konnte lokalisiert werden und es wird bereits an einer Lösung gearbeitet.
-
 *Untersuchung* - Wir sind uns eines Problems bewusst, das es vereinzelt Probleme mit dem Online-Status vom Plex-Server gibt. Das Problem konnte lokalisiert werden und es wird bereits an einer Lösung gearbeitet.

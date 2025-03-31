@@ -1,7 +1,7 @@
 ---
 title: Ausfall des BananaDrive-Servers
 date: 2025-03-24 11:00:00
-resolved: false
+resolved: true
 # Mögliche Schweregrade: down, disrupted, notice
 severity: disrupted
 affected:
@@ -10,6 +10,8 @@ section: issue
 ---
 
 ---
+
+*Update 3* Jetzt wird geschaut wie das System bei einer sehr hohen Anzahl von Scans läuft. Es wurde aber mittlerweile vermutlich eine gute Einstellung insbesondere für den Cache gefunden. Generell sollten also keine Probleme oder Anpassungen mehr vorkommen.
 
 *Update 2* Ok, also auf dem Medienserver gab es tatsächlich einen Fehler mit Autoscan, war nicht korrekt aktiv, somit wurden Filme zwar gelöscht aber nicht wieder korrekt hinzugefügt und waren dann als nicht verfügbar.
 Das wurde jetzt behoben! Autoscan läuft jetzt vermutlich zuverlässig. Lag an falscher Portweiterleitung.

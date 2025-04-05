@@ -19,7 +19,7 @@ Ok, also auf dem Medienserver gab es tatsächlich einen Fehler mit Autoscan, war
 Das wurde jetzt behoben! Autoscan läuft jetzt vermutlich zuverlässig. Lag an falscher Portweiterleitung.
 Heute früh um 9 wurde nochmal etwas an den Medien gemacht und daher war zeitweise gar nichts abspielbar, denn normalerweise hätte ein Restart das Problem behoben, scheinbar hat aber ein Skript nicht alles korrekt neugestartet.
 
-*Update*
+*Update 1*
 Laut den Server-Logs war der Server zu den problematischen Zeitpunkten nicht offline. Es muss also eine andere Ursache geben wieso der Server zu bestimmten Zeiten nicht erreichbar ist.
 
 *Untersuchung*
